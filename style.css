@@ -1,0 +1,268 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.header1{
+  margin: 0 auto;
+  width: 1000px;
+}
+.bar{
+  height: 30px;
+  background-color: #f6f6f6;
+}
+.bar ul{
+  float: right;
+}
+.bar ul li{
+  float: left;
+  margin: 5px;
+}
+.bar li a{
+  text-decoration: none;
+  font-size: 16px;
+}
+.bar li img{
+  margin-right: 5px;
+  float: left;
+}
+
+.facebook span{
+  color:#4460a0;
+  border-right: 2px solid #cccccc;
+  padding-right: 8px;
+  font-weight: bold;
+}
+.twitter span{
+  color:#19a7ec;
+  padding-right: 8px;
+  font-weight: bold;
+}
+
+.header2{
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.menu{
+  display: flex;
+}
+.menu li{
+  width: 100px;
+  text-align: center;
+}
+.menu li a{
+  display:block;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #03cc99;
+  font-weight: bold;
+}
+
+.menu li a:hover{
+  background: #03cc99;
+  color: #fff;
+}
+.border{
+  border-bottom: 2px solid #03cc99;
+}
+
+.header3{
+  margin: 0 auto;
+  width: 1000px;
+  position: relative;
+}
+.box{
+  width: 1000px;
+  height: 160px;
+  background: #18171750;
+  position: absolute;
+  top: 115px;
+  color: #fff;
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: medium;
+  padding-top: 40px;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+
+.course{
+  display:flex;
+  align-items: center;
+  justify-content:space-around;
+  margin: 0 auto;
+  width: 1000px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.course-item{
+  width: 305px;
+  height: 380px;
+  line-height: 25px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 5px gray;
+  border-radius: 5px;
+  font-family:'Arial', Arial, sans-serif;
+}
+.course-item h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.course-item p{
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.course-item li{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.green{
+  color:#03cc99;
+}
+.table h2{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.table th{
+  background: #f7f7f7;
+  font-weight: bold;
+  border-top: 0.5px solid #dddddd;
+  border-bottom: 0.5px solid #dddddd;
+  padding-left: 10px;
+  padding-right: 100px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+  font-family:'Arial', Arial, sans-serif;
+  font-size: 16px;
+}
+.table td{
+  border-top: 0.5px solid #dddddd;
+  border-bottom: 0.5px solid #dddddd;
+  padding-left: 10px;
+  padding-right: 100px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+  font-family:'Arial', Arial, sans-serif;
+  font-size: 16px;
+}
+table{
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.information{
+  width: 1000px;
+  height: 400px;
+  background: linear-gradient(#00654a, #009972);
+  margin: 0 auto;
+  margin-top: 45px;
+  padding-top: 40px;
+  padding-left: 20px;
+  position: relative;
+}
+.information h2{
+  text-align: center;
+  font-size: 25px;
+  font-weight: medium;
+  color: #fff;
+  line-height: 35px;
+}
+.information2{
+  display: flex;
+  padding-top: 25px;
+}
+.form{
+  padding-left: 30px;
+}
+.title{
+  color: #fff;
+  margin-top: 10px;
+}
+.text{
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 460px;
+  height: 30px;
+  border-radius: 3px;
+  border: 0px;
+}
+.button{
+  background: #00cc98;
+  color: #fff;
+  text-align: center;
+  padding: 3px;
+  border-radius: 3px;
+  width: 70px;
+  height: 30px;
+  position: absolute;
+  top: 365px;
+  left: 907px;
+  border: 0px;
+}
+.footer{
+  margin: 0 auto;
+  margin-top: 18px;
+  margin-bottom: 20px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  line-height: 23px;
+}
+.span{
+  color:#cf3b74;
+  font-family:'Arial', Arial, sans-serif
+}
